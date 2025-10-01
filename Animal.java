@@ -5,7 +5,7 @@ public class Animal {
     private String cor;
 
     public Animal() {
-        this.tamanho = 0.0f;
+        this.tamanho = 4.0f;
         this.cor = "Cinza";
     }
 
@@ -23,3 +23,4 @@ public class Animal {
         System.out.println("Tamanho: " + tamanho + " | Cor: " + cor);
     }
 }
+
